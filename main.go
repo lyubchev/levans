@@ -3,20 +3,26 @@ package main
 import "fmt"
 
 func main() {
-	n := min(3, 5)
-	m := max(4, 5)
 
-	fmt.Println(n)
-	fmt.Println(m)
+	str1 := "hello0"
+	str2 := "helo"
+	fmt.Println(lev(str1, str2, len(str1), len(str2)))
 
 }
 
 func lev(str1, str2 string, i, j int) int {
-
-	if str1[i] == str2[j] {
-
+	if min(i, j) == 0 {
+		return max(i, j)
 	}
 
+	if str1[i-1] == str2[j-1] {
+		return lev(str1, str2, i-1, j-1)
+	}
+
+	return min(
+		min(lev(str1, str2, i-1, j), lev(str1, str2, i, j-1)),
+		lev(str1, str2, i-1, j-1),
+	) + 1
 }
 
 func min(x, y int) int {

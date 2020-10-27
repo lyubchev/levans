@@ -36,6 +36,8 @@ func lev(str1, str2 string, i, j int) int {
 	) + 1
 }
 
+// Wroto these helper funcs because I don't want to cast when using go's built-in math lib
+
 func min(x, y int) int {
 	if x <= y {
 		return x

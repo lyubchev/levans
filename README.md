@@ -3,8 +3,8 @@
 ## TODO
 
  - [x] Make the algorithm calculate distance
- - [] Write an easy to understand explanation
- - [] Create a spelling checker app using the algorithm
+ - [ ] Write an easy to understand explanation
+ - [ ] Create a spelling checker app using the algorithm
 
 ## Reference
 

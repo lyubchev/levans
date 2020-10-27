@@ -11,6 +11,14 @@ func main() {
 
 }
 
+func lev(str1, str2 string, i, j int) int {
+
+	if str1[i] == str2[j] {
+
+	}
+
+}
+
 func min(x, y int) int {
 	if x <= y {
 		return x

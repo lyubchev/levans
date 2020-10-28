@@ -5,6 +5,7 @@
  - [x] Make the algorithm calculate distance
  - [ ] Write an easy to understand explanation
  - [ ] Create a spelling checker app using the algorithm
+ - [ ] Visualize algorithm?
 
 ## Reference
 
